@@ -1,0 +1,30 @@
+body{
+    background-image: url(grunge-black-concrete-textured-background_53876-124541.avif);
+    color: snow;
+}
+.fejlec{
+    font-weight: bold;
+    font-size: larger;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu{
+    background-color: gray;
+}
+.menu a{
+    border: 2px solid whitesmoke
+    
+}
+.tartalom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.kep{
+    max-width: 100%;
+    width: 400px;
+    padding: 10px;
+}
+img{
+border: 2px solid gray;
+ border-radius: 15%;
+}
