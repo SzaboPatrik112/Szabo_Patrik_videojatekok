@@ -1,6 +1,11 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url(grunge-black-concrete-textured-background_53876-124541.avif);
     color: snow;
+    width: 1000px;
+    margin: auto;
 }
 .fejlec{
     font-weight: bold;
@@ -10,21 +15,41 @@ body{
 }
 .menu{
     background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    color: aliceblue;
 }
-.menu a{
-    border: 2px solid whitesmoke
-    
-}
+
 .tartalom{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
 }
 .kep{
     max-width: 100%;
-    width: 400px;
     padding: 10px;
 }
 img{
-border: 2px solid gray;
+border: 4px solid gray;
  border-radius: 15%;
+ width: 100%;
 }
+h1{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 30px;
+    text-transform: capitalize;
+    padding: 20px;
+}
+h3{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5%;
+    background-color: rgb(39, 37, 37);
+}
+@media screen and (max-width: 600px) {
+    .tartalom{
+      grid-template-columns: 1fr;
+    }
+  }
